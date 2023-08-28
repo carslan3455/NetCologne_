@@ -3,7 +3,7 @@ package pages;
 import org.openqa.selenium.By;
 
 
-public interface Locators  {
+public interface Lctrs {
 
     By akzeptieren= By.cssSelector("a[class='c-button c-text__t4_2']");
     By iconLinks= By.cssSelector("div.socialMediaWrapper__a8b45 a");

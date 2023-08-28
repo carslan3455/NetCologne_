@@ -5,7 +5,7 @@ Feature: Login Functionality
 
     Given navigate to NetCologne
 
-  @Smoke
+  @Login
   Scenario Outline: Login
     When navigate to Loginseite
     Then the user is logged "<KundenNummer>" and "<Password>"
@@ -16,6 +16,6 @@ Feature: Login Functionality
 
       | KundenNummer | Password |
       | 123456       | erste    |
-      | 345678       | zweite   |
-      | 123456       | dritte   |
+      | 234567       | zweite   |
+      | 345678       | dritte   |
 

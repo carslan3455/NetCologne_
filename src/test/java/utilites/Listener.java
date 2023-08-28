@@ -12,7 +12,7 @@ public class Listener implements ITestListener {
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        System.out.println("Basarili");
+        System.out.println("Erfolgreich");
 
     }
 

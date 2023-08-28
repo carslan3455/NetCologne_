@@ -5,18 +5,18 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pages.Locators;
+import pages.Lctrs;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.time.Duration;
 
-public class Methods extends wd implements Locators {
+public class Methods extends w_Driver implements Lctrs {
 
     WebDriver driver;
     WebDriverWait wait;
     public Methods() {
-        driver = wd.getDriver("chrome");
+        driver = w_Driver.getDriver("chrome");
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 

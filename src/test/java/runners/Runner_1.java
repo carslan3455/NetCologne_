@@ -10,8 +10,7 @@ import utilites.Listener;
 
 
 @CucumberOptions(
-        features = {"src/test/java/features/Login.feature"},
-        tags = "@Smoke",
+        features = {"src/test/java/features"},
         glue = {"stepDefinitions"},
         plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:","summary"}
 

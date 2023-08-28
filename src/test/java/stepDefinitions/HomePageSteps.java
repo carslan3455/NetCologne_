@@ -3,7 +3,6 @@ package stepDefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -12,11 +11,11 @@ import java.time.Duration;
 import java.util.List;
 
 import utilites.Methods;
-import utilites.wd;
+import utilites.w_Driver;
 
 
 public class HomePageSteps extends Methods {
-    public static WebDriver driver = wd.getDriver("chrome");
+    public static WebDriver driver = w_Driver.getDriver("chrome");
 
     @Given("navigate to NetCologne")
     public void navigate_to_net_cologne() {
